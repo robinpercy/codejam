@@ -13,7 +13,6 @@ public class Solution  {
         while (sc.hasNextLine()) {
             out.print("Case #"+(i++)+": ");
             String N = sc.nextLine();
-//            out.println(N);
             out.println(findNext(N));
         }
     }
@@ -24,11 +23,9 @@ public class Solution  {
         List<Integer> prefix = new ArrayList<Integer>();
         List<Integer> suffix = new ArrayList<Integer>();
 
-        int min = 10;
         for(char c : chars) {
             Integer i = Integer.parseInt(""+c);
             list.add(i);
-            if (i < min && i > 0) { min = i; }
         }
 
         partition(list, prefix, suffix);
@@ -37,11 +34,18 @@ public class Solution  {
             // Add a digit and put the numbers in non-decreasing order
             list.add(0);
             Collections.sort(list);
-            int minIndex = list.indexOf(min); 
-            if (minIndex > 0 ) {
-                // First digit must be a zero, swap it with the first non-zero value
-                Collections.swap(list, 0, minIndex);
+            int minIndex = 0; 
+
+            // The first non-zero digit will be the smallest non-zero digit
+            // Swap it with the most significant digit to ensure we don't lead with a zero
+            for (ListIterator<Integer> iter = list.listIterator(); iter.hasNext();) {
+                if (iter.next() > 0) {
+                    minIndex = iter.previousIndex();
+                    break;
+                }
             }
+            Collections.swap(list, 0, minIndex);
+
         } else {
             // Find the smallest digit larger than the top of the prefix
             // swap it with the top of the prefix
@@ -69,15 +73,15 @@ public class Solution  {
     }
 
     public static void partition(List<Integer> list, List<Integer> prefix, List<Integer> suffix) {
-        Boolean isSuffix = true;
         /**
          * Loop from right to left and partition when we find an increase
          */
         //out.println (list);
+        Boolean isSuffix = true;
         Integer prev = 10;
         for (ListIterator<Integer> iter = list.listIterator(list.size()); iter.hasPrevious();) {
             Integer num = iter.previous();
-         //   out.println("Num:" + num);
+            //   out.println("Num:" + num);
             isSuffix = (isSuffix && (suffix.size() == 0 || prev <= num));
             if (isSuffix) {
                 suffix.add(num);
