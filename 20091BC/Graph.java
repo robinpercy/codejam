@@ -15,8 +15,8 @@ public class Graph {
         nedges = 0;
         directed = directed;
 
-        edges = new EdgeNode[maxEdges];
-        degree = new int[maxEdges];
+        edges = new EdgeNode[maxEdges+1];
+        degree = new int[maxEdges+1];
     }
 
     public static class EdgeNode {
@@ -48,7 +48,7 @@ public class Graph {
         g.nvertices = scanner.nextInt();
         m = scanner.nextInt();
 
-        for (i=0; i<m; i++) {
+        for (i=1; i<=m; i++) {
             x = scanner.nextInt();
             y = scanner.nextInt();
             g.insertEdge(x, y, directed);
@@ -57,7 +57,7 @@ public class Graph {
     }
 
     public void printGraph() {
-        for(int i=0; i < nvertices; i++) {
+        for(int i=1; i <= nvertices; i++) {
             out.format("%d:", i);
             EdgeNode p = edges[i];
             while (p != null) {
