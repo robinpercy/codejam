@@ -18,20 +18,20 @@ public class Solution {
                 y[j] = scanner.nextInt();
             }
 
-            BigInteger result = solve(x,y);
-            System.out.println(String.format("Case #%d: %s", i+1, result));
- //           System.out.prlongln("out");
+            long result = solve(x,y);
+            System.out.println(String.format("Case #%d: %d", i+1, result));
+ //           System.out.println("out");
         }
     }
 
-    public static BigInteger solve(int[] x, int[] y) {
+    public static long solve(int[] x, int[] y) {
         Arrays.sort(x);
         Arrays.sort(y);
-        BigInteger result = BigInteger.valueOf(0l);
+        long result = 0l;
         for (int i=0; i < x.length; i++) {
-//            System.out.prlongln(String.format("%d * %d", x[i], y[x.length - 1 -i]));
-            BigInteger product = BigInteger.valueOf((long)x[i]).multiply(BigInteger.valueOf(y[x.length - 1 - i]));
-            result = result.add(product);
+//            System.out.prlintln(String.format("%d * %d", x[i], y[x.length - 1 -i]));
+            long product =(long)x[i] * (long)(y[x.length - 1 - i]);
+            result += product;
         }
         return result;
     }
