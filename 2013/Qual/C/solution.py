@@ -9,17 +9,18 @@ pals = [[]]
 def debug(s):
     if DEBUG: print s
 
+
 def solve(A, B):
     if B == 1: 
         return 1
     startDigits = int(math.log10(A))
     endDigits = int((math.log10(B) + 2)/2)
     debug("digits: %d %d" % (startDigits, endDigits))
-    for d in range(1, endDigits + 1):
-        pals.append(genpalsofsize(d))
 
 def genpalsofsize(d):
     debug("Generating pals of size %d" % d)
+    if len(pals) > d and pals[d] != None: pals[d]
+
     if d == 1: 
         return [ [i] for i in range(0,10)]
     elif d == 2:
@@ -32,10 +33,55 @@ def genpalsofsize(d):
         return palsofsize
 
 
-solve(10,10000000000000)
-for palOfSize in pals:
+#for d in range(1, 10):
+#    pals.append(genpalsofsize(d))
+
+
+def nextpal(curpal):
+    curpallen = len(curpal)
+    prefixlen = int(curpallen / 2)
+    suffixlen = prefixlen + curpallen % 2
+    suffix = curpal[-suffixlen:]
+    newSuffix = inc(suffix)
+    debug("suffix=%s prefixlen = %d suffixlen =%d newsuffix=%s" % (suffix, prefixlen, suffixlen, newSuffix))
+    if newSuffix == suffixlen * [0]:
+        # suffix is all zeroes, so we're adding an order of magnitude
+        return [1] + [0] * (curpallen - 1) + [1]
+    else:
+        if newSuffix[-1] == 0:
+            # can't lead with a zero, so we can't end with a zero
+            newSuffix[-1] = 1
+
+        newPrefix = newSuffix[curpallen % 2:]
+        newPrefix.reverse()
+        return newPrefix + newSuffix
+
+def inc(val):
+    debug("inc %s" % val)
+    for i in reversed(range(len(val))):
+        debug("check pos %d" % i)
+        if val[i] == 9:
+            val[i] = 0
+        else:
+            val[i] = val[i] + 1
+            break
+    return val
+
+curpal = [0]
+for i in range(0, 10000000):
+    curpal = nextpal(curpal)
+    #print ''.join([str(n) for n in curpal])
+
+print curpal
+print len(curpal)
+
+
+"""for palOfSize in pals:
     for p in palOfSize:
-        if p[0] != 0: print ''.join([str(n) for n in p])
+        #if p[0] != 0: print ''.join([str(n) for n in p])
+        print p
+        """
+
 
 
 """
