@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0b7f324-1c06-49c3-b510-b34918357d4c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2013/1A/A/test.in" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2013/1A/B/test.in" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2012/R1B/A/.small-other.out.swp" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2013/1A/B/solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2013/1A/A/solution.py" afterPath="$PROJECT_DIR$/2013/1A/A/solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2013/1A/A/test.in" afterPath="$PROJECT_DIR$/2013/1A/A/test.in" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CodeJam.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="a0b7f324-1c06-49c3-b510-b34918357d4c" time="1367023969382" ignored="false" />
-    <file path="/solution.py" changelist="a0b7f324-1c06-49c3-b510-b34918357d4c" time="1367088622978" ignored="false" />
+    <file path="/solution.py" changelist="a0b7f324-1c06-49c3-b510-b34918357d4c" time="1367116721619" ignored="false" />
     <file path="/sample.in" changelist="a0b7f324-1c06-49c3-b510-b34918357d4c" time="1367031202439" ignored="false" />
     <file path="/test.in" changelist="a0b7f324-1c06-49c3-b510-b34918357d4c" time="1367032442709" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -73,24 +73,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="sample.in" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2013/1A/A/sample.in">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sample.exp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2013/1A/A/sample.exp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="10" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="sample.exp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2013/1A/B/sample.exp">
           <provider selected="true" editor-type-id="text-editor">
@@ -100,19 +82,64 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="solution.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="solution.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2013/1A/A/solution.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="8" selection-start="681" selection-end="681" vertical-scroll-proportion="0.5125285">
+            <state line="20" column="10" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="test.in" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2013/1A/A/test.in">
+        <entry file="file://$PROJECT_DIR$/2013/1A/B/test.in">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0">
+            <state line="3" column="0" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="solution-recursive.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2013/1A/B/solution-recursive.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="4" selection-start="1520" selection-end="1520" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="solution.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2013/1A/B/solution.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="44" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.9574468">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="b.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2013/1A/B/b.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="16" selection-start="916" selection-end="916" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="large.in" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2013/1A/B/large.in">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="149" column="0" selection-start="1877" selection-end="1877" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sample.in" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2013/1A/B/sample.in">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -121,7 +148,7 @@
       <file leaf-file-name="small.in" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2013/1A/A/small.in">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1000" column="0" selection-start="7522" selection-end="7522" vertical-scroll-proportion="0.0">
+            <state line="981" column="0" selection-start="7373" selection-end="7373" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -147,13 +174,14 @@
       <list>
         <option value="$PROJECT_DIR$/2012/R1B/A/solution.py" />
         <option value="$PROJECT_DIR$/2013/1A/A/sample.exp" />
+        <option value="$PROJECT_DIR$/2013/1A/B/sample.exp" />
+        <option value="$PROJECT_DIR$/2013/1A/A/sample.in" />
+        <option value="$PROJECT_DIR$/2013/1A/A/solution.py" />
+        <option value="$PROJECT_DIR$/2013/1A/B/b.py" />
+        <option value="$PROJECT_DIR$/2013/1A/A/test.in" />
+        <option value="$PROJECT_DIR$/2013/1A/B/test.in" />
         <option value="$PROJECT_DIR$/2013/1A/B/sample.in" />
         <option value="$PROJECT_DIR$/2013/1A/B/solution.py" />
-        <option value="$PROJECT_DIR$/2013/1A/B/sample.exp" />
-        <option value="$PROJECT_DIR$/2013/1A/B/test.in" />
-        <option value="$PROJECT_DIR$/2013/1A/A/sample.in" />
-        <option value="$PROJECT_DIR$/2013/1A/A/test.in" />
-        <option value="$PROJECT_DIR$/2013/1A/A/solution.py" />
       </list>
     </option>
   </component>
@@ -332,25 +360,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.solution">
-    <configuration default="false" name="solution" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2012/R1B/A" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <module name="CodeJam" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2012/R1B/A/solution.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="Unittests in solution" type="tests" factoryName="Unittests" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -372,6 +381,23 @@
       <option name="USE_PARAM" value="false" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="solution" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2013/1A/B" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="CodeJam" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2013/1A/B/solution.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -492,13 +518,14 @@
       <method />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Python.solution" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in solution" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in solution" />
+      <item index="1" class="java.lang.String" itemvalue="Python.solution" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="Python.solution" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in solution" />
+        <item index="1" class="java.lang.String" itemvalue="Python.solution" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in solution" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -530,7 +557,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933628" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39845476" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -540,7 +567,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16229117" sideWeight="0.7950481" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16229117" sideWeight="0.6015453" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20495185" sideWeight="0.99522674" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -615,8 +642,13 @@
           <line>79</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/2013/1A/B/solution.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="12" />
+      <option name="time" value="13" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -624,22 +656,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/2012/R1B/A/solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#19#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/A 2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="19" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2012/R1B/A/sample.in">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -661,22 +677,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="15" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#19#29#0" expanded="true" />
+            <element signature="e#19#29#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2013/1A/B/sample.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2013/1A/B/test.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="1" selection-start="17" selection-end="17" vertical-scroll-proportion="0.031512607">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -694,13 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2013/1A/B/solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="4" selection-start="1520" selection-end="1520" vertical-scroll-proportion="0.6092437">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2013/1A/B/sample.exp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="10" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
@@ -708,23 +703,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2013/1A/A/small.in">
+    <entry file="file://$PROJECT_DIR$/2013/1A/B/solution-recursive.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1000" column="0" selection-start="7522" selection-end="7522" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2013/1A/A/test.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0">
+        <state line="59" column="4" selection-start="1520" selection-end="1520" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2013/1A/A/solution.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="8" selection-start="681" selection-end="681" vertical-scroll-proportion="0.5125285">
+        <state line="20" column="10" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2013/1A/B/b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="16" selection-start="916" selection-end="916" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2013/1A/B/large.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="149" column="0" selection-start="1877" selection-end="1877" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2013/1A/A/test.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="2" selection-end="74" vertical-scroll-proportion="0.029013539">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2013/1A/B/test.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2013/1A/A/small.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="981" column="0" selection-start="7373" selection-end="7373" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2013/1A/B/sample.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2013/1A/B/solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="44" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.9574468">
           <folding />
         </state>
       </provider>

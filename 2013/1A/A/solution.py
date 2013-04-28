@@ -17,22 +17,22 @@ def solve(r, t):
 def solve_large(r, t):
     high = t
     low = 1
-
+    solution = 1
     while high >= low:
         mid = (low + high) / 2
         #print "%d %d %d" % (low, mid, high)
         paint = required_paint(r, mid)
         #print "paint = %d" % paint
         if paint < t:
-             if required_paint(r, mid + 1) > t: break
+             solution = mid
              low = mid + 1
         elif paint > t:
              high = mid - 1
         elif paint == t:
-        #    print "break"
-            break
+             solution = mid
+             break
 
-    return mid
+    return solution
 
 
 def required_paint(r, n):
