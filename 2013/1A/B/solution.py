@@ -61,5 +61,6 @@ else:
     T = int(sys.stdin.readline())
     for casen in xrange(T):
         E, R, N = [long(s) for s in sys.stdin.readline().split()]
+        R = E if R > E else R
         vals = [long(s) for s in sys.stdin.readline().split()]
         print "Case #%d: %s" % (casen+1, solve(E, R, vals))
